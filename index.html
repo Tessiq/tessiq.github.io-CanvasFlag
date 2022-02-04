@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="500" height="290" style="border: 1px solid black; background-color: red;"></canvas>
+    <script>
+        window.onload = canvas();
+        function canvas() {
+        var canvas = document.getElementById("myCanvas");
+        var context = canvas.getContext("2d");
+        context.lineWidth = 25;
+        context.strokeStyle = "white";
+        context.moveTo(0, 30);
+        context.lineTo(500, 30);
+        context.stroke();
+        context.moveTo(0, 75);
+        context.lineTo(500, 75);
+        context.stroke();
+        context.moveTo(0, 120);
+        context.lineTo(500, 120);
+        context.stroke();
+        context.moveTo(0, 165);
+        context.lineTo(500, 165);
+        context.stroke();
+        context.moveTo(0, 210);
+        context.lineTo(500, 210);
+        context.stroke();
+        context.moveTo(0, 255);
+        context.lineTo(500, 255);
+        context.stroke();
+        context.fillStyle = "blue";
+        context.fillRect(0, 0, 225, 152);
+        context.lineWidth = 1;
+        context.fillStyle = "white";
+
+        context.beginPath();
+        context.arc(10, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(50, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(90, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(130, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(170, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(210, 15, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(30, 30, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(70, 30, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(110, 30, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(150, 30, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(190, 30, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(10, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(50, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(90, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(130, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(170, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(210, 45, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(30, 60, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(70, 60, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(110, 60, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(150, 60, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(190, 60, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(10, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(50, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(90, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(130, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(170, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(210, 75, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(30, 90, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(70, 90, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(110, 90, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(150, 90, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(190, 90, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(10, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(50, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(90, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(130, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(170, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(210, 105, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(30, 120, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(70, 120, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(110, 120, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(150, 120, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(190, 120, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.beginPath();
+        context.arc(10, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(50, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(90, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(130, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(170, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+        context.beginPath();
+        context.arc(210, 135, 5, 0, 2 * Math.PI);
+        context.fill();
+
+        context.moveTo(0, 290);
+        context.lineTo(0, 500);
+        context.stroke();
+        };
+
+    </script>
+</body>
